@@ -1,0 +1,121 @@
+/* ===== HEADER ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #004e92, #000428);
+  color: white;
+  padding: 15px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.app-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  outline: none;
+  width: 250px;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #0099ff;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #007acc;
+}
+
+/* ===== BODY ===== */
+.main-content {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9fafc;
+}
+
+.descripcion h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.descripcion p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.imagenes {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imagenes img {
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.imagenes img:hover {
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #000428;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.socials img {
+  width: 25px;
+  margin: 0 8px;
+  transition: transform 0.2s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
