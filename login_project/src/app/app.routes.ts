@@ -15,11 +15,11 @@ export const routes: Routes = [
         component: GerssonValencia
     },
     {
-        path: 'Andres Diaz',
+        path: 'AndresDiaz',
         component: AndresDiaz
     },
     {
-        path: 'Andres Hurtado',
+        path: 'AndresHurtado',
         component: AndresHurtado
     }
 
